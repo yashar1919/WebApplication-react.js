@@ -1,0 +1,32 @@
+.banner {
+  width: 100%;
+  height: 800px;
+}
+
+.container {
+  width: 100%;
+  position: relative; /* baraye inke matn ro rooye ax biarim */
+}
+
+.textContainer {
+  position: absolute; /* baraye inke matn ro rooye ax biarim */
+  top: 60px;
+  left: 60px;
+}
+
+.textContainer h1 {
+  font-size: 5rem;
+  color: #06f7c4;
+}
+
+.textContainer p {
+  font-size: 3rem;
+  margin-top: 40px;
+  margin-left: 100px;
+  color: white;
+}
+
+.textContainer span {
+  font-weight: bold;
+  color: #00d4ff;
+}

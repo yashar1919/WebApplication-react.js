@@ -1,0 +1,26 @@
+.container{
+    background-color: #00d4ff;
+    padding: 80px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.container input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid darkcyan;
+    padding: 10px;
+    outline: none;
+}
+
+.container input::placeholder{
+    font-size: 1rem;
+}

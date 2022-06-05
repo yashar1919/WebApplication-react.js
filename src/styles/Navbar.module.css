@@ -1,0 +1,32 @@
+.header {
+  display: flex; /* 2ta tage div ro biare kenare ham gharar bede */
+  justify-content: space-between; /* fasele bezare beine tag haye div ma */
+  background-color: #30383A;
+  align-items: center; /* ham az nazare amoodi o ham ofoghi, hamechio biare markaz */
+  padding: 0px 50px;
+  color: aliceblue;
+}
+
+.logo {
+    width: 70px;
+    border-radius:50%;
+    padding: 10px;
+    margin: auto 0px;
+}
+
+
+.list {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.list li{
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.list li:hover{
+    color: darkcyan;
+}

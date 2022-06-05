@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+import styles from '../styles/Search.module.css';
+
+
+class Search extends Component {
+
+    render() {
+        return (
+            <div className={styles.container}>
+                <p>Search What do you want</p>
+                <input placeholder='Search...' />
+            </div>
+        );
+    }
+}
+
+export default Search;
+
