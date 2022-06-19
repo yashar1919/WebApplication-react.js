@@ -27,6 +27,11 @@
 
 }
 
-.list li:hover{
+.list li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.list li a:hover{
     color: darkcyan;
 }

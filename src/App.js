@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import Banner from './components/Banner';
-import Cards from './components/Cards';
+import { Route, Switch } from 'react-router-dom';
 import Footer from './components/Footer';
-import Logos from './components/Logos';
 import Navbar from './components/Navbar';
-import Search from './components/Search';
+import LandingPage from './components/LandingPage';
+import Products from './components/Products';
 
 
 class App extends Component {
@@ -12,10 +11,10 @@ class App extends Component {
     return (
       <>
         <Navbar />
-        <Banner />
-        <Cards />
-        <Search />
-        <Logos />
+        <Switch>
+          <Route path="/products" component={Products} />
+          <Route path="/" component={LandingPage} />
+        </Switch>
         <Footer />
       </>
     );
